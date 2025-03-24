@@ -1,0 +1,29 @@
+body{
+    background-image: url(bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Georgia, serif;
+}
+
+.intro{
+    text-align: center;
+    color: lightblue;
+    padding: auto;
+    background: rgb(39, 17, 17);
+}
+form{
+    padding: 40px;
+    background-color: cadetblue;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+fieldset{
+    border-color: black;
+}
+
+.for-name{
+    
+}

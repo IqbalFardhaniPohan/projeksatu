@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet"/>
+    <title>FreecodeForm</title>
+</head>
+<body>
+    <div class="eventform">
+        <main>
+            <div class="intro">
+                <h1 id="title">Historical Events in Indonesia</h1>
+                <p id="description">Which events is the most important?</p>
+            </div>
+            <div class="mainsurvey">
+                <form id="survey-form">
+                    <div class="for-name">
+                        <label for="name" id="name-label"> Name: </label>
+                        </br>
+                        <input type="text" id="name" required placeholder="Fulan">
+                    </div>
+                </br>
+                    <div class="for-email">
+                        <label for="email" id="email-label"> Email: </label>
+                        </br>
+                        <input type="email" id="email" required placeholder="apalah@gmail.com">
+                    </div>
+                </br>
+                    <div class="for-partinumber">
+                        <label for="number" id="number-label"> Participation No: </label>
+                        </br>
+                        <input type="number" id="number" required min="1" max="1000" placeholder="23">
+                    </div>
+                </br>
+                    <div class="for-gender">
+                        <fieldset>
+                            <legend>Gender</legend>
+                            <input type="radio" name="gender" id="m" value="Male">
+                            <label for="m">Male</label>
+                            <input type="radio" name="gender" id="f" value="Female">
+                            <label for="f">Female</label>
+                        </fieldset>
+                    </div>
+                </br>
+                    <div class="for-gender">
+                    <label for="dropdown">City:</label>
+                    </br>
+                    <select name="city" id="dropdown">
+                        <option value="1">Jakarta</option>
+                        <option value="2">Bogor</option>
+                        <option value="3">Depok</option>
+                        <option value="4">Tangerang</option>
+                        <option value="5">Bekasi</option>
+                    </select>
+                </br>
+                </br>
+                    <div class="for-mainanswer">
+                        <label for="events"> Which Indonesian Historical events is the most important? and why?</label>
+                        </br>
+                        <textarea rows="2" cols="30" name="events" id="events" required></textarea>
+                    </div>
+                </br>
+                    <div class="for-dataanswer">
+                        <input type="checkbox" name="honesty" id="honest" value="true" required>
+                        <label for="honest">The data that i submit is true.</label>
+                    </div>
+                </br>
+                    <div class="for-researchanswer">
+                        <input type="checkbox" name="datas" id="data" value="true" required>
+                        <label for="data">I allow this data to be used for research purposes.</label>
+                    </div>
+                </br>
+                    <input type="submit" id="submit" value="Submit">
+                </form>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
